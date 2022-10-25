@@ -1,0 +1,42 @@
+2022-01-24 20:06:39,961 [info] logfile 5056 - --------------------------------------------
+2022-01-24 20:06:39,961 [info] logfile 5056 - Convert Options:FileName:D:\GMS_CauTruc (1).mp4,FileExt:.mp4,FileFormat:,AudioCodec:libfaac,AudioPreset:
+AudioChannels:2,AudioSampleRate:44100,AudioBitrate:128000,AudioTag:,AudioVolume:256
+VideoCodec:mpeg4,VideoBitrate:2000000,VideoPreset:,FrameRate:30.00
+
+2022-01-24 20:06:39,961 [info] logfile 5056 - Input File:File Name: D:\Cong_Viec\TLTK\GMS_CauTruc (1).avi
+Format Name: avi
+Format Long Name: AVI format
+File Size: 339.28 MB
+Duration: 00:09:56.320
+StartTime: 0.000000
+Bit Rate: 4772 kb/s
+Stream #0, 1/25: Video: msvideo1, rgb555le, 1280x768, 1/25, 25 tbr, 25 tbn, 25 tbc, StartTime: 0.000000, Duration: 00:09:56.320
+  Metadata:
+    strn            : ~temp.avi Video #1
+Stream #1, 1/22050: Audio: pcm_s16le, 22050 Hz, 2 channels, s16, 705 kb/s, StartTime: 0.000000, Duration: N/A
+  Metadata:
+    strn            : Microsoft Waveform: ~temp001.wav
+
+2022-01-24 20:06:39,962 [info] logfile 5056 - Format ID:1055
+2022-01-24 20:06:39,962 [info] logfile 5056 - --------------------------------------------
+2022-01-24 20:06:39,993 [info] logfile 5056 - --------------------------------------------
+2022-01-24 20:06:39,993 [info] logfile 5056 - Convert Options:FileName:D:\GMS_ThongSo (1).mp4,FileExt:.mp4,FileFormat:,AudioCodec:libfaac,AudioPreset:
+AudioChannels:2,AudioSampleRate:44100,AudioBitrate:128000,AudioTag:,AudioVolume:256
+VideoCodec:mpeg4,VideoBitrate:2000000,VideoPreset:,FrameRate:30.00
+
+2022-01-24 20:06:39,993 [info] logfile 5056 - Input File:File Name: D:\Cong_Viec\TLTK\GMS_ThongSo (1).avi
+Format Name: avi
+Format Long Name: AVI format
+File Size: 1.15 GB
+Duration: 00:34:33.920
+StartTime: 0.000000
+Bit Rate: 4780 kb/s
+Stream #0, 1/25: Video: msvideo1, rgb555le, 1276x768, 1/25, 25 tbr, 25 tbn, 25 tbc, StartTime: 0.000000, Duration: 00:34:33.920
+  Metadata:
+    strn            : ~temp.avi Video #1
+Stream #1, 1/22050: Audio: pcm_s16le, 22050 Hz, 2 channels, s16, 705 kb/s, StartTime: 0.000000, Duration: N/A
+  Metadata:
+    strn            : Microsoft Waveform: ~temp001.wav
+
+2022-01-24 20:06:39,993 [info] logfile 5056 - Format ID:1055
+2022-01-24 20:06:39,993 [info] logfile 5056 - --------------------------------------------
