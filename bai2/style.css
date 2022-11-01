@@ -1,0 +1,27 @@
+body{
+    font: size 20px;
+}
+li{
+    color: brown;
+    
+}
+#title{
+    color: rgb(45, 45, 182);
+    background-color: aquamarine;
+    padding: 10px;
+}
+.title2{
+    color: aqua;
+}
+.item1 .item2{
+    background-color: aquamarine;
+    padding: 10px;
+    color: aliceblue;
+}
+.item-end {
+    display: none
+}
+.item-end:hover {
+    display: block
+
+}
