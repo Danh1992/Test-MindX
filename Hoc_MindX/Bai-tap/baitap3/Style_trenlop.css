@@ -1,0 +1,21 @@
+.danh{
+    
+    display:flex;
+    justify-content: space-between;
+}
+.da{
+    background-color: aquamarine;
+      margin: 10px;
+      margin-right: 200px;
+     
+   
+}
+.tem1{
+    font-size: 80%;
+}
+body{
+    font-family: system-ui;
+}
+.danh1{
+    margin-right: 160px;
+}
