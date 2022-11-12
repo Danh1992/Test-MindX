@@ -1,0 +1,88 @@
+.body__header{
+    font-style: normal;
+      background-color: rgb(60, 194, 60);
+    color:aliceblue;
+    padding: 50px;
+margin: 5px 680px 5px 5px;
+text-align: center;
+border-radius: 4px;
+}
+.body_div{
+    font-style: normal; 
+    display: flex;
+    margin: 5px;
+    right: 0px;
+ }
+
+.body_ul{
+    font-style: normal;
+      background-color: rgb(60, 194, 60);
+    color:aliceblue;
+    padding: 50px;
+margin: 5px;
+text-align: center;
+list-style: none;
+border-radius: 4px;
+left: 0px;
+}
+.body__footer{
+    font-style: normal;
+    background-color: rgb(60, 194, 60);
+  color:aliceblue;
+  padding: 50px;
+margin: 5px 680px 5px 5px;
+text-align: center;
+border-radius: 4px;
+right: 0px;
+}
+.Sidebar{
+  font-style: normal;
+  background-color: rgb(60, 194, 60);
+color:aliceblue;
+padding: 50px;
+margin: 5px;
+text-align: center;
+list-style: none;
+border-radius: 4px;
+right: 0px;
+}
+.blockbox__item{
+width: 200px;
+padding: 10px;
+text-align: center;
+font-size: 30px;
+
+}
+/* /Wrap/ */
+.flexBox--wrap{
+  flex-wrap: wrap;
+}
+.flexBox__item--wrap{
+  width: 200px;
+}
+.BigBox{
+  display: flex;
+  background-color: aliceblue;
+  width: 100%;
+  height: 300px;
+}
+.BigBox__item{
+ padding: 10px;
+ text-align: center;
+}
+/* align self */
+.BigBox__item--alignself{
+  align-self: flex-end ;
+}
+/* grid */
+.gridBox{
+  display: grid;
+  padding: 10px;
+  background-color: brown;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+.gridBox__item{
+  padding: 10px;
+  border: 1 solid;
+}
