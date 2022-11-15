@@ -1,0 +1,78 @@
+.menu1 a{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #0f9d58;
+    text-decoration: none;
+}
+.menu2{
+    font-size: 2rem;
+    font-weight: 800; 
+    color: #5a5a4f36; 
+   
+}
+.menu2 a{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(90, 95, 99);
+}
+.menu3{
+    padding: 20px;
+    margin: 0px;
+    color: #0f9d58;
+}
+header{
+    display: flex;
+        margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    position: fixed;
+    background-color: antiquewhite;
+    
+}
+.menu2 a:hover { 
+    background-color: #0f9d58;
+    border-radius: 5px;
+}
+header .menu3:hover { 
+    background-color: #0f9d58;
+    border-radius: 5px;
+
+}
+.contact{
+  width: 400px;  
+  height: 200rem;
+  position: absolute;
+  margin-top: 100px;
+ margin-left: 200px;
+}
+h1{
+    color: #0f9d58;
+}
+.contact a{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #0f9d58;
+    text-decoration: none;
+padding: 2px;
+border: 5px;
+border-color: #0f9d58 ;
+   } 
+.contact a:hover{ 
+    background-color: #0f9d58;
+    border-radius: 5px;
+color: aliceblue;
+
+}
+.thucdon{
+padding: 5px;
+display: flex;
+}
+.gia{
+    display: flex;
+}
+.mua{
+    padding: 10px;
+    margin: 0px;
+    color: #0f9d58;
+}
