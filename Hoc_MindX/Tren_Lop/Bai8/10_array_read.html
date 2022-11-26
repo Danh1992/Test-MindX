@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //quan trọng
+const fruits = ['banana', 'apple'];
+
+console.log(fruits[0]);
+for(let i = 0; i < fruits; i++){
+    console.log(fruits[i]);
+}
+for( let index in fruits){
+    console.log(index, fruits[index]);
+}
+for(
+    let item of fruits
+){
+    console.log(item)
+}
+
+fruits.forEach((item, index) => {
+    console.log(index, item)
+}
+
+)
+
+   </script>
+</body>
+</html>
