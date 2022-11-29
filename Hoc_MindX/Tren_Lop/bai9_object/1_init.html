@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+{
+ const person = {};
+ console.log(person);
+}
+{
+ const person = {
+firstname: "jonh",
+lastname: 'doe',
+};
+
+ console.log(person);
+// them du lieu
+person.city = 'new york';
+console.log(person);
+// xoa thuoc tinh
+delete person.lastname;
+console.log(person);
+
+// assign: gop 2 Object
+const x = {
+    name: 'ali',
+}
+const y = {
+    age: 20
+}
+const z = object.assign(x,y);
+console.log(z);
+
+}
+
+
+    </Script>
+</body>
+</html>

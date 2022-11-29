@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+
+
+ const person = {
+firstname: "jonh",
+lastname: 'doe',
+age: 20
+}
+
+
+console.log(" {person.firsname} {person.lastname}");
+ 
+// update prop
+person.age = 55;
+person.age += 1;
+
+console.log(person);
+// update combo
+let x = prompt('what you want to update');
+for(let prop in person){
+    if(prop == x){
+        let value = prompt('what is update:');
+        person[prop] = value;
+        break;
+    
+    }
+    console.log(person);
+}
+
+
+</Script>
+</body>
+</html>

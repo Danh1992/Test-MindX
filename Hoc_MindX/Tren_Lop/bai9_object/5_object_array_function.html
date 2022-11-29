@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+// 1. array in object
+ 
+{
+    const person = {
+firstname: "jonh",
+lastname: 'doe',
+age: 20,
+interest: ['swim','eat','eat bichling'],
+}
+
+let interest = person.interest;
+console.log( interest);
+for(let item of interest){
+    console.log(item);
+}
+}
+// 2 object in object
+{
+    const person = {
+firstname: "jonh",
+lastname: 'doe',
+age: 20,
+marks: {
+    xahoi: 5,
+    toan: 7,
+}
+}
+console.log(person.firstname, person.marks.toan)
+}
+// 3. function in object
+{
+    const person = {
+firstname: "jonh",
+lastname: 'doe',
+age: 20,
+greet: function(){
+    console.log('hello');
+},
+fullname: function(){
+    console.log(this.firstname + '' + this.lastname);
+
+}
+}
+person.greet();
+person.fullname();
+
+}
+//4. object in array
+{
+    const person = [
+{
+    firstname: "jonh",
+lastname: 'doe',
+age: 20,
+},
+{
+    firstname: "a",
+lastname: 'in',
+age: 25,
+}
+] 
+console.log(person);
+
+for(let person of persons) {
+    console.log(`name: ${person.firstname} ${person.lastname},age: ${person.age}`)
+}
+
+}
+
+
+
+</Script>
+</body>
+</html>
