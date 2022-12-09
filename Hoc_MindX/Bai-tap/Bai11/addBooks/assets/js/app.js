@@ -1,0 +1,20 @@
+const ul = document.querySelector('ul');
+const li = document.createElement("li");
+const span = document.createElement("span");
+span.innerText = "Lập trình web căn bản";
+li.appendChild(span);
+const span1 = document.createElement("span");
+span1.innerText = "Delete";
+li.appendChild(span1);
+ul.appendChild(li);
+span.classList.add('booksList__name');
+
+const li2 = document.createElement("li");
+const span2 = document.createElement("span");
+span2.innerText = "Lập trình web căn bản";
+li2.appendChild(span2);
+const span3 = document.createElement("span");
+span3.innerText = "Delete";
+li2.appendChild(span3);
+ul.appendChild(li2);
+span2.classList.add('booksList__name');

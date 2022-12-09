@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- //dom là gi -->
+<h1 id="msg">Singers </h1>
+<ul id=" list">
+    <li class="singer">Tame</li>
+    <li class="singer">natu</li>
+    <li class="singer">steven <span>Hot</span></li>
+</ul>
+<p id="date" onclick="">Click show time now</p>;
+<button id="btnLike">Like</button>
+<button id="btnVote">Vote</button>
+
+<button onclick="">Remove</button>
+<ul>
+    <li>coffee</li>
+    <li>Tea</li>
+    <li>milk</li>
+</ul>
+<p id="insert"><b>messges...</b></p>
+
+<div id="parent">
+<p id="first-child">Some child text</p>
+<p id="second-child">Some more child text</p>
+</div>
+<p>anh danh......</p>
+<p>anh danh......</p>
+<style>
+    .color{
+        color:aquamarine;
+        font-size: 38px;
+    }
+</style>
+<script>
+const firstChild = document.getElementById('first-child');
+console.log(firstChild);
+
+console.log(firstChild.parentNode);
+//làm css trong Dom
+firstChild.parentNode.style.backgroundColor = 'gray';
+firstChild.parentNode.style.padding = '5px 20px';
+
+
+document.getElementById('second-child').setAttribute('class', 'color');
+
+</script>
+</body>
+</html>

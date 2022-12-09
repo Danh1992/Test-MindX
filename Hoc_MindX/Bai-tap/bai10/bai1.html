@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="value">
+      <h3>Hãy nhập từ 1 đến 10</h3>
+      <input type="text" id="input_id" />
+    </div>
+    <button id="btnsubmid">submid</button>
+    <p id="ket_qua"></p>
+
+    <script>
+        let pElement = document.getElementById("ket_qua")
+        
+        
+        
+
+      const btnSubmid = document.getElementById("btnsubmid");
+      btnSubmid.onclick = () => {
+        let domInput = document.getElementById("input_id").value
+        console.log(domInput);
+        let valueInput = domInput.value
+        if(domInput  > 1 && domInput < 10){
+            pElement.innerHTML = 'dung'
+        }else{
+            pElement.innerHTML = 'sai'
+        }
+    }
+      
+    // btnSubmid.addEventListener('click',myFunction)
+    // function myFunction () {
+    //     let domInput = document.getElementById("input_id").value
+    //     console.log(domInput);
+    //     if(domInput  > 1 && domInput < 10){
+    //         pElement.innerHTML = 'dung'
+    //     }else{
+    //         pElement.innerHTML = 'sai'
+    //     }
+    // } 
+
+    </script>
+  </body>
+</html>

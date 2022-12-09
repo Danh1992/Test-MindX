@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>My to do list</h1>
+    <input type="text" id="input_e" />
+    <button id="Nhap">Add</button> <br />
+     <br />
+    <ul id="ul"></ul>
+    <button id="btn_luu">luu danh sach</button>
+    <script>
+      const addValue = () => {
+        console.log("Vừa nhập");
+        const valueInput = input_element.value;
+        console.log(valueInput);
+        const li = document.createElement("li");
+        li.textContent = valueInput;
+        ul.appendChild(li);
+     
+      };
+      const nhap = document.getElementById("Nhap");
+      const ul_E = document.getElementById("ul");
+      const input_element = document.getElementById("input_e");
+      nhap.addEventListener("click", addValue);
+      const ul = document.querySelector("ul");;
+
+      const btn_luu = document.getElementById('btn_luu')
+      const luuData = () => {
+        const data = [];
+        // const value = {
+        //     "congv":"congviec1"
+        // }
+        // data.push(value)
+        for(var i =0;i<ul_E.children.length;i++){
+            const value = {
+                "congviec":ul_E.children[i].innerHTML
+            }
+            data.push(value)
+        }
+        console.log(data);
+        localStorage.setItem("todo", JSON.stringify(data));
+
+      }
+      btn_luu.addEventListener('click',luuData)
+// localStorage.
+      
+    //   localStorage.setItem(ul);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- //dom là gi -->
+<h1 id="msg">Singers </h1>
+<ul id=" list">
+    <li class="singer">Tame</li>
+    <li class="singer">natu</li>
+    <li class="singer">steven <span>Hot</span></li>
+</ul>
+<p id="date" onclick="">Click show time now</p>;
+<button id="btnLike">Like</button>
+<button id="btnVote">Vote</button>
+<p id="insert"><b>messges...</b></p>
+<p>anh danh......</p>
+<p>anh danh......</p>
+<script>
+//1. insertAdjacentHTML
+const d = document.getElementById('insert');
+console.log( d);
+d.insertAdjacentElement('beforeend', '<div>beforeend</div>');
+d.insertAdjacentElement('beforebegin', '<div>beforebegin</div>');
+d.insertAdjacentElement('afterbegin', '<div>afterbegin</div>');
+//2. creatElement
+// const btn = document.creatElement('button');
+// btn.innerHTML = 'Hello Button';
+// btn.classList.add('button');
+
+d.appendChild(btn);
+
+
+
+</script>
+</body>
+</html>
