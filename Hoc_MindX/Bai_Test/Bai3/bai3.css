@@ -1,0 +1,35 @@
+
+.menu{
+  z-index: 20;
+  display: flex;
+      margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  position: fixed;
+  background-color: antiquewhite;
+  
+ 
+}
+.menu a{
+  padding: 20px;
+  text-decoration: none;
+  color: rgb(90, 95, 99);
+}
+.menu a:hover { 
+  background-color: #0f9d58;
+  border-radius: 5px;
+}
+.contact{
+  z-index: 10;
+    width: 400px;  
+  height: 2rem;
+  position: absolute;
+  margin-top: 100px;
+ margin-left: 200px;
+ display: inline-block;
+}
+
+.contact2{
+  display: flex;
+}
