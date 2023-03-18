@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    background-color: blueviolet;
+}
+.Header{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: bisque;
+   grid-area: 20px;
+   gap: 50px;
+}
+
